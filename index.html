@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/jow_sty.css"/>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weber - Informatik</title>
 </head>
 <body>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">Digitalisierung</div>
+        <img src="images/header.jpg" style="width:100%">
+        <div class="text">Suchen Sie Hilfe bei der Digitalisierung Ihrer analogen Tonaufnahmen ?</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">Media-Server</div>
+        <img src="images/header.jpg" style="width:100%">
+        <div class="text">Brauchen Sie Unterstützung beim Aufbau einer digitalen Audiolösung?</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">Unterricht</div>
+        <img src="images/header.jpg" style="width:100%">
+        <div class="text">Möchten Sie Ihr Informatik Know How erweitern?</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script type="text/javascript" src="js/animate.js"></script>
 
 </body>
 </html>
